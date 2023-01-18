@@ -29,8 +29,6 @@ def read_data(file):
         xml_str += convert_row(headers, row) + '\n'
     xml_str += '</data>'
 
-    print(xml_str)
-
     return xml_str
 
 

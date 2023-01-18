@@ -32,3 +32,7 @@ def csv():
             return render_template('form_output.html')
 
     return render_template('form_input.html')
+
+
+if __name__ == '__main__':
+    app.run(host="0.0.0.0", port=5000, debug=True)

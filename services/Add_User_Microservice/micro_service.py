@@ -18,6 +18,8 @@ def add_user_micro_service(file):
     print('----- Iniciando Micro Servicio -----')
 
     (xml_csv, xml_no_working, xml_people_analytics) = input_treatment(file)
+
+    print('----- Finalizando Micro Servicio -----')
     '''
 
     user_temp = user(None, None, None, None, None, None)
